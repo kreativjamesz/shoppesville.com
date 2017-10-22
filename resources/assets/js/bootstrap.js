@@ -13,7 +13,9 @@ try {
     // Bootstrap 3
     // require('bootstrap-sass');
     // Bootstrap 4
+    window.Popper = require('popper.js');
     require('bootstrap');
+
 } catch (e) {}
 
 /**
